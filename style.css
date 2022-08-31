@@ -56,6 +56,10 @@
   img.works{
     display: none;
   }
+  .about-section-content{
+    margin-left: none;
+    text-align: center;
+  }
 }
   p {
     background: var(--secondary-color);
@@ -71,6 +75,9 @@
     font-size: 20px;
     text-align:justify;
 }  
+.about-section-content{
+  margin-left: 30px;
+}
   .navigation-links {
     display: flex;
     margin-top: 40px;

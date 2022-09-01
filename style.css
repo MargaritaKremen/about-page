@@ -9,11 +9,7 @@
     margin: 100px auto;
     background: url(/images/pexels-uri-espinosa-375374.jpg) no-repeat ;
   }
-  .about-body {
-    margin: 60px auto;
-    max-width: 800px;
-  }
-  
+    
   h1,
   h2,
   h3 {
@@ -34,7 +30,7 @@
   }
   
   h3 {
-    font-size: 24px;
+    font-size: 22px;
     opacity: 0.7;
   }
     @media(max-width:576px){
@@ -51,15 +47,18 @@
     margin: 0;
     font-family: "Montserrat", sans-serif;
     color:#1c0738;  
-    font-size: 36px;
-}
-  img.works{
-    display: none;
-  }
+    font-size: 18px;
+} 
   .about-section-content{
     margin-left: none;
     text-align: center;
   }
+  .about-me-p{
+     font-size: 18px;
+     text-align:justify;
+ }  
+ .primary-link {
+  font-size: 18px;
 }
   p {
     background: var(--secondary-color);
@@ -84,41 +83,12 @@
     justify-content: center;
   }
   
-  .navigation-links a {
-    margin: 20px;
-    border-radius: 4px;
-    padding: 20px 15px;
-    text-decoration: none;
-    text-transform: capitalize;
-  }
-  
-  .contact-link {
-    background: var(--primary-color);
-    box-shadow: var(--box-shadow);
-    color: white;
-  }
-  
-  .about-link {
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
-  }
-  
-  .homepage-link {
+ .homepage-link {
     color: var(--primary-color);
     text-align: center;
     display: block;
   }  
-  .email-link {
-    display: flex;
-    justify-content: center;
-    color: var(--primary-color);
-    font-size: 28px;
-    text-decoration: none;
-  }
-  
-  .email-link:hover {
-    text-decoration: underline;
-  }
+
   .img-fluid {
     max-width: 70%;
     height: auto;
@@ -130,27 +100,10 @@
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
-    background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
   }
-  .social-link {
-    color: var(--primary-color);
-    font-size: 22px;
-    text-decoration: none;
-  }
-  
-  .social-link:hover {
-    text-decoration: underline;
-  }
-  .btn-branding {
-    background: var(--branding-color);
-    border-radius: 4px;
-    color: white;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
-  }
+
   .logo{
     max-width: 130px;
   }

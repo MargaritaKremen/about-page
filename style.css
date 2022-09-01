@@ -48,7 +48,7 @@
     font-family: "Montserrat", sans-serif;
     color:#1c0738;  
     font-size: 18px;
-} 
+ } 
   .about-section-content{
     margin-left: none;
     text-align: center;
@@ -57,10 +57,7 @@
      font-size: 18px;
      text-align:justify;
  }  
- .primary-link {
-  font-size: 18px;
 }
-    }
   p {
     background: var(--secondary-color);
     padding: 20px;
@@ -92,15 +89,14 @@
 
   .img-fluid {
     max-width: 70%;
-    height: auto;
-    border: 4px solid;
-    border-color: #1c073843;
+    height: auto;    
   }
   .primary-link {
     border-radius: 4px;
     padding: 20px 15px;
     text-decoration: none;
     text-transform: capitalize;
+    background: var(--primary-color);
     box-shadow: var(--box-shadow);
     color: white;
   }
